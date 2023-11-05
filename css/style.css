@@ -236,7 +236,7 @@ p:hover {
     }
 
     #list li {
-        width: auto
+        width: auto;
         float: right;
         flex-wrap: nowrap;
     }
