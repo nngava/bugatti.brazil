@@ -23,17 +23,28 @@ body {
     background-color: rgb(219, 28, 48);
     color: rgb(255, 255, 255);
     font-weight: bold color;
-    text-shadow: #000000 0.1em 0.1em 0.1em;
+    text-shadow: rgb(0, 0, 0) 0.04em 0.02em 0.04em;
     font-style: oblique;
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
     padding-left: 35px;
-    padding-right: 30px;
+    padding-right: 10px;
     font-size: 50px;
     font-family: fantasy;
     display: flex;
     box-shadow: #000000 0.1em 0.1em 0.1em;
+}
+
+#imgLogo {
+    margin-left: 30px;
+    margin-top: 0px;
+    align-items: flex-end;
+    max-width: 150px;
+    max-height: 60px;
+    display: inline-block;
+    box-shadow: rgb(250, 249, 208) 0.0em 0.01em 0.09em 0.04em;
+    border-radius: 10px;
 }
 
 #selecao {
@@ -186,6 +197,13 @@ body {
     text-shadow: #000000 0.1em 0.1em 0.1em;
 }
 
+#list li:hover {
+    background-color: rgb(219, 28, 48);
+    transform: scale(1.03);
+    transition: 0.1s;
+    border-radius: 10px;
+}
+
 .artigo:hover {
     background-color: rgb(219, 28, 48);
     padding-bottom: 10px;
@@ -203,4 +221,30 @@ p:hover {
     transition: 0.1s;
     margin-top: 10px;
     cursor: zoom-in;
+}
+
+@media screen and (max-width: 670px) {
+
+    #cabeca {
+        display: inline-flex;
+    }
+
+    #brandName {
+        display: inline-block;
+        padding-right: 35px;
+    }
+
+    #list li {
+        float: right;
+        flex-wrap: wrap;
+    }
+
+    #imgLogo {
+        margin-left: 0PX;
+        border-radius: 12px;
+        margin-top: 80px;
+        max-width: 180px;
+        max-height: max-content;
+    }
+
 }
