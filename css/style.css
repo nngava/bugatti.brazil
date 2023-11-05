@@ -1,0 +1,220 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    margin: 20px;
+    font-family: monospace;
+    background-image: url(../img/cf8bcab5132c1cbe980e6966b0f653f7.jpg);
+    background-size: cover;
+}
+
+header {
+    margin-top: 45px;
+    margin-left: 15px;
+
+}
+
+#brandName {
+    background-color: rgb(219, 28, 48);
+    color: rgb(255, 255, 255);
+    font-weight: bold color;
+    text-shadow: #000000 0.1em 0.1em 0.1em;
+    font-style: oblique;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 35px;
+    padding-right: 30px;
+    font-size: 50px;
+    font-family: fantasy;
+    display: flex;
+    box-shadow: #000000 0.1em 0.1em 0.1em;
+
+}
+
+#about {
+    background-color: rgb(219, 28, 48);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: #000000 0.1em 0.1em 0.1em;
+
+}
+
+#products {
+    background-color: rgb(219, 28, 48);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: #000000 0.1em 0.1em 0.1em;
+
+}
+
+#sales {
+    background-color: rgb(219, 28, 48);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: #000000 0.1em 0.1em 0.1em;
+
+}
+
+#news {
+    background-color: rgb(219, 28, 48);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: #000000 0.1em 0.1em 0.1em;
+
+}
+
+#support {
+    background-color: rgb(219, 28, 48);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: #000000 0.1em 0.1em 0.1em;
+
+}
+
+#contactUs {
+    background-color: rgb(219, 28, 48);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: #000000 0.1em 0.1em 0.1em;
+}
+
+.list li {
+    font-size: 22px;
+    margin-left: 15px;
+    list-style: none;
+    justify-content: end;
+    display: inline-flex;
+    margin-top: 20px;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+
+
+h3 {
+    margin-top: 65px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-left: 8%;
+    margin-right: 8%;
+    text-shadow: rgb(219, 28, 48) 0.1em 0.1em 0.1em;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+#firstFooter {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: #000000 0.1em 0.1em 0.1em;
+}
+
+#secondFooter {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: #000000 0.1em 0.1em 0.1em;
+}
+
+.new {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+img {
+    margin: 0px;
+    max-width: max-content;
+    max-height: 180px;
+    -webkit-filter: grayscale(100%);
+
+}
+
+.legenda {
+    background-color: rgb(219, 28, 48);
+    color: rgb(255, 255, 255);
+    padding-bottom: 2px;
+    padding-top: 0px;
+    margin-top: 0%;
+    margin: 0%;
+    text-align: center;
+}
+
+.sub {
+    text-align: center;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    margin-top: 0%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+
+}
+
+input {
+    width: 260px;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-top: 7px;
+    text-align: center;
+    border: 2px;
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    text-shadow: #000000 0.1em 0.1em 0.1em;
+    box-shadow: rgb(219, 28, 48) 0.0em 0.1em;
+    cursor: pointer;
+
+}
+
+a {
+    text-decoration: none;
+    text-shadow: #000000 0.1em 0.1em 0.1em;
+}
+
+article:hover {
+    background-color: rgb(219, 28, 48);
+    padding-bottom: 10px;
+    transform: scale(125px);
+    transition: all 225ms ease-out;
+    border-radius: 5px;
+
+}
+
+p:hover {
+    padding-top: 10px;
+}
+
+img:hover {
+    -webkit-filter: grayscale(0%);
+    transition: 0.1s;
+    margin-top: 10px;
+    cursor: zoom-in;
+}
