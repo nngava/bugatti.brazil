@@ -199,7 +199,7 @@ body {
 
 #list li:hover {
     background-color: rgb(219, 28, 48);
-    transform: scale(1.03);
+    transform: scale(1.09);
     transition: 0.1s;
     border-radius: 10px;
 }
@@ -207,7 +207,7 @@ body {
 .artigo:hover {
     background-color: rgb(219, 28, 48);
     padding-bottom: 10px;
-    transform: scale(125px);
+    transform: scale(1.1);
     transition: all 225ms ease-out;
     border-radius: 5px;
 }
