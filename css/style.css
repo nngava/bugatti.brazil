@@ -236,7 +236,7 @@ p:hover {
 
     #list li {
         float: right;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     #imgLogo {
