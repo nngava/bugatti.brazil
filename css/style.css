@@ -237,12 +237,10 @@ p:hover {
     }
 
     #list li {
-
-        max-width: fit-content;
-        max-height: fit-content;
         width: auto;
         float: left;
         flex-wrap: nowrap;
+        font-size: 10px;
     }
 
     #imgLogo {
