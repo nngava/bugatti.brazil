@@ -230,9 +230,9 @@ p:hover {
     }
 
     #brandName {
-        font-size: 40px;
+        font-size: 30px;
         display: inline-block;
-        padding-right: 37px;
+        padding-right: 30px;
         width: auto;
     }
 
@@ -246,7 +246,7 @@ p:hover {
         margin-left: 0PX;
         border-radius: 12px;
         margin-top: 80px;
-        max-width: 130px;
+        max-width: 110px;
         max-height: max-content;
     }
 
