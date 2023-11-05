@@ -210,7 +210,6 @@ body {
     transform: scale(125px);
     transition: all 225ms ease-out;
     border-radius: 5px;
-    width: 100%;
 }
 
 p:hover {
@@ -233,10 +232,11 @@ p:hover {
     #brandName {
         display: inline-block;
         padding-right: 35px;
+        width: auto;
     }
 
     #list li {
-        width: 100%;
+        width: auto
         float: right;
         flex-wrap: nowrap;
     }
