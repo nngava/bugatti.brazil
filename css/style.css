@@ -235,7 +235,7 @@ p:hover {
 
     #brandName {
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 18px;
+        font-size: 23px;
         display: inline-block;
         padding-right: 40px;
         width: auto;
@@ -246,6 +246,7 @@ p:hover {
         float: left;
         flex-wrap: nowrap;
         font-size: 10px;
+        margin-top: 13px;
     }
 
     #imgLogo {
