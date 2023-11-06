@@ -225,11 +225,16 @@ p:hover {
 
 @media screen and (max-width: 670px) {
 
+    body{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
     #cabeca {
         display: inline-flex;
     }
 
     #brandName {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size: 18px;
         display: inline-block;
         padding-right: 40px;
