@@ -28,7 +28,7 @@ body {
     border-radius: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 80px;
+    padding-left: 35px;
     padding-right: 10px;
     font-size: 50px;
     font-family: fantasy;
@@ -37,10 +37,12 @@ body {
 }
 
 #imgLogo {
-    margin-left: -39%;
+    margin-left: 30px;
     margin-top: 0px;
+    align-items: flex-end;
+    max-width: 150px;
     max-height: 60px;
-    max-width: max-content;
+    display: inline-block;
     border-radius: 10px;
 }
 
