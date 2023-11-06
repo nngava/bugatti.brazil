@@ -231,6 +231,7 @@ p:hover {
     }
     #cabeca {
         display: inline-flex;
+        margin-left: 0px;
     }
 
     #brandName {
